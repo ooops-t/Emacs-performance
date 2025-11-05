@@ -15,7 +15,7 @@ These flags gave me the best performance.
        && ./configure CFLAGS="-march=native -Ofast -fno-finite-math-only -pipe \
 -fgraphite-identity -floop-nest-optimize -fdevirtualize-at-ltrans -fipa-pta \
 -fno-semantic-interposition" \
---with-modules --without-compress-install --with-x-toolkit=lucid \
+--with-modules --without-compress-install --with-x-toolkit=motif \
 --with-xft --with-xaw3d --without-toolkit-scroll-bars --without-gsettings \
 --with-gconf --with-mailutils --with-native-compilation=aot --with-tree-sitter
 #+end_src
